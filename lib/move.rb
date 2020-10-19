@@ -12,7 +12,7 @@ end
 
 def move(board, user_index, character = "X")
   board[user_index] = character
-  board
+  return board
 end
 
 
